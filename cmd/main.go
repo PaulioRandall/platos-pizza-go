@@ -6,7 +6,7 @@ import (
 
 	"github.com/PaulioRandall/go-trackerr"
 
-	"github.com/PaulioRandall/platos-pizza-go/pkg/workflow"
+	"github.com/PaulioRandall/platos-pizzas-go/pkg/workflow"
 )
 
 func main() {

@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"time"
 
-	"github.com/PaulioRandall/platos-pizza-go/pkg/database"
+	"github.com/PaulioRandall/platos-pizzas-go/pkg/database"
 )
 
 func (db *sqliteDB) InsertOrders(orders ...database.Order) error {

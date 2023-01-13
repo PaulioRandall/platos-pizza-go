@@ -3,7 +3,7 @@ package in_memory
 import (
 	"github.com/PaulioRandall/go-trackerr"
 
-	"github.com/PaulioRandall/platos-pizza-go/pkg/database"
+	"github.com/PaulioRandall/platos-pizzas-go/pkg/database"
 )
 
 const queryHeadMax = database.QueryHeadMax

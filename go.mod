@@ -1,4 +1,4 @@
-module github.com/PaulioRandall/platos-pizza-go
+module github.com/PaulioRandall/platos-pizzas-go
 
 go 1.18
 

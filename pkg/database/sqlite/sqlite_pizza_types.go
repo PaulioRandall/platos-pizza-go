@@ -3,7 +3,7 @@ package sqlite
 import (
 	"database/sql"
 
-	"github.com/PaulioRandall/platos-pizza-go/pkg/database"
+	"github.com/PaulioRandall/platos-pizzas-go/pkg/database"
 )
 
 func (db *sqliteDB) InsertPizzaTypes(pizzaTypes ...database.PizzaType) error {

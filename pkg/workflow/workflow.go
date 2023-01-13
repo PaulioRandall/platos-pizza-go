@@ -3,8 +3,8 @@ package workflow
 import (
 	"github.com/PaulioRandall/go-trackerr"
 
-	"github.com/PaulioRandall/platos-pizza-go/pkg/database"
-	"github.com/PaulioRandall/platos-pizza-go/pkg/database/sqlite"
+	"github.com/PaulioRandall/platos-pizzas-go/pkg/database"
+	"github.com/PaulioRandall/platos-pizzas-go/pkg/database/sqlite"
 )
 
 var (
