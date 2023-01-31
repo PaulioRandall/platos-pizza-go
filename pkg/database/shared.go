@@ -20,11 +20,11 @@ func readCSV(filename string) ([][]string, error) {
 
 	r := csv.NewReader(f)
 	records, e := r.ReadAll()
-	records = records[1:] // Remove header
 
 	if e != nil {
 		return nil, ErrCSVFile.CausedBy(e, "Could not read file %q", filename)
 	}
 
+	records = records[1:] // Remove header
 	return records, nil
 }

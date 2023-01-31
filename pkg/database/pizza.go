@@ -5,6 +5,7 @@ import (
 	"strconv"
 )
 
+// Pizza represents a specific pizza type at a specific size
 type Pizza struct {
 	// Unique identifier for each pizza (constituted by its type and size)
 	Id string
